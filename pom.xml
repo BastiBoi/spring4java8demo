@@ -10,6 +10,7 @@
 	<name>Finance application to demonstrate a full spring 4.0 webapp stack</name>
 
 	<modules>
+		<module>finance-entity</module>
 		<module>finance-rest</module>
 	</modules>
 

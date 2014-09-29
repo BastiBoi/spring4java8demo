@@ -30,7 +30,7 @@ public class PortfolioPresenter {
 	 * curl -i http://localhost:8080/simplerestservice/portfolio/?customerid=1234 
 	 * **/
 	@RequestMapping(value="/{portfolioid}", method = RequestMethod.GET)
-	public PortfolioResponse getStockPortfolio( @PathVariable CustomerId portfolioid) {
+	public PortfolioResponse getStockPortfolio(@PathVariable CustomerId portfolioid) {
 		List<Stock> stocks = portfolioService.getStocks(portfolioid);
 		return new PortfolioResponse(stocks);
 	}

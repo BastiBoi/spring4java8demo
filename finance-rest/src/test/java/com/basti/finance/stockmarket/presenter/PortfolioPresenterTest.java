@@ -1,4 +1,4 @@
-package com.basti.finance.stockmarket.entities.presenter;
+package com.basti.finance.stockmarket.presenter;
 
 import static com.jayway.restassured.module.mockmvc.RestAssuredMockMvc.*;
 import static com.jayway.restassured.matcher.RestAssuredMatchers.*;
@@ -28,6 +28,8 @@ import org.springframework.web.context.WebApplicationContext;
 import com.basti.config.spring.SpringConfiguration;
 import com.basti.finance.stockmarket.entities.CustomerId;
 import com.basti.finance.stockmarket.entities.Stock;
+import com.basti.finance.stockmarket.presenter.PortfolioPresenter;
+import com.basti.finance.stockmarket.presenter.PortfolioRequest;
 import com.basti.finance.stockmarket.usecase.PortfolioService;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.module.mockmvc.RestAssuredMockMvc;

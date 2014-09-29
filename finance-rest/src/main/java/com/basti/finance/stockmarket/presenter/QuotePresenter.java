@@ -1,4 +1,4 @@
-package com.basti.finance.stockmarket.entities.presenter;
+package com.basti.finance.stockmarket.presenter;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

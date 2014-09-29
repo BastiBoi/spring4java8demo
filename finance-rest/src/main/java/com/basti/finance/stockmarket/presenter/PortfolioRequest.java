@@ -1,4 +1,4 @@
-package com.basti.finance.stockmarket.entities.presenter;
+package com.basti.finance.stockmarket.presenter;
 
 
 public class PortfolioRequest {

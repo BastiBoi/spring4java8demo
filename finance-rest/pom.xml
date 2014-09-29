@@ -24,6 +24,13 @@
 
 	<dependencies>
 
+		<!-- dependencies within multi module project -->
+		<dependency>
+			<groupId>com.basti</groupId>
+			<artifactId>finance-entity</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
 		<!-- Spring 4 dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
